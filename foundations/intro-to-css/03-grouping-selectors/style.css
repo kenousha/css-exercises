@@ -1,1 +1,15 @@
-/* Add CSS Styling */
+/* Buttons requires: a font size of 28px 
+alist of fonts containing `Helvetica` and `Times New Roman`, 
+with `sans-serif` as a fallback */
+button {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+/* Left button requires: black background and white text */
+.left-button{
+    color: white;
+    background-color: black;
+}
+.right-button{
+    background-color: yellow;
+}
